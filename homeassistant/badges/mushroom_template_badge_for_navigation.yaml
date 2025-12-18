@@ -1,1 +1,7 @@
-
+type: custom:mushroom-template-badge
+icon: mdi:remote-tv
+color: "#662D91"
+tap_action:
+  action: navigate
+  navigation_path: /my-dashboard-1-0/bedroom-tv
+content: Bedroom TV
