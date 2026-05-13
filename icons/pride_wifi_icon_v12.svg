@@ -1,0 +1,41 @@
+<svg width="100%" viewBox="0 300 680 630" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Pride WiFi icon</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A WiFi symbol with rainbow pride colors: red circle at bottom, then orange, yellow, green, blue, and violet curved arcs above.</desc>
+
+  
+
+  <!--
+    80° total sweep, 40° each side of straight up.
+    Angles: 230° to 310°.
+    sin(230°)=-0.766, cos(230°)=-0.643
+    sin(310°)=-0.766, cos(310°)= 0.643
+
+    Endpoint from center (340,920), shifted up 21px:
+    x = 340 + r*cos, y = 899 + r*sin
+
+    Orange r=58:  x=340±58*0.643=340±37.3, y=899+58*(-0.766)=899-44.4=855 → (303,855)(377,855)
+    Yellow r=116: x=340±74.6,              y=899-88.9=810                  → (265,810)(415,810)
+    Green  r=174: x=340±111.9,             y=899-133.3=766                 → (228,766)(452,766)
+    Blue   r=232: x=340±149.2,             y=899-177.7=721                 → (191,721)(489,721)
+    Violet r=290: x=340±186.5,             y=899-222.1=677                 → (154,677)(527,677)
+  -->
+
+  <!-- Violet: r=290 -->
+  <path stroke="#750787" stroke-width="44" d="M 154,677 A 290,290 0 0,1 527,677" style="fill:none;stroke:rgb(117, 7, 135);color:rgb(255, 255, 255);stroke-width:44px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Blue: r=232 -->
+  <path stroke="#004DFF" stroke-width="44" d="M 191,721 A 232,232 0 0,1 489,721" style="fill:none;stroke:rgb(0, 77, 255);color:rgb(255, 255, 255);stroke-width:44px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Green: r=174 -->
+  <path stroke="#008026" stroke-width="44" d="M 228,766 A 174,174 0 0,1 452,766" style="fill:none;stroke:rgb(0, 128, 38);color:rgb(255, 255, 255);stroke-width:44px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Yellow: r=116 -->
+  <path stroke="#FFED00" stroke-width="44" d="M 265,810 A 116,116 0 0,1 415,810" style="fill:none;stroke:rgb(255, 237, 0);color:rgb(255, 255, 255);stroke-width:44px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Orange: r=58 -->
+  <path stroke="#FF8C00" stroke-width="44" d="M 303,855 A 58,58 0 0,1 377,855" style="fill:none;stroke:rgb(255, 140, 0);color:rgb(255, 255, 255);stroke-width:44px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Red dot -->
+  <circle cx="340" cy="898" r="22" fill="#E40303" style="fill:rgb(228, 3, 3);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+</svg>
